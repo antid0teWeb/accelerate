@@ -34,7 +34,7 @@ get_header(); ?>
             <?php while ( have_posts() ) : the_post(); 
         
                 $image_1 = get_field("image_1"); 
-                $size = 'medium'; 
+                $size = 'full'; 
             ?>
             <li class="individual-featured-work">
                 <figure>
